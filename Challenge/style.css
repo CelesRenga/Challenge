@@ -180,7 +180,8 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    backdrop-filter: blur(2px); brightness(.9);
+    backdrop-filter: blur(2px); 
+    backdrop-filter: brightness(.9);
 }
 
 
@@ -278,6 +279,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-36);
+    margin: var(--spacing-68) auto;
 }
 
 .slider__title {
@@ -291,11 +293,22 @@ header {
 }
 
 .card-item__cover {
-    display: flex;    
+    display: flex;
+    position: relative;    
+}
+
+.card-item__tag {
+    font-size: var(--font-xsmall);
+    text-transform: uppercase;
+    background-color: var(--primary-solid);
+    color: var(--light-font-solid);
+    padding: var(--spacing-8) var var(--spacing-12);
+    position: absolute;
+    right: 0;
 }
 
 .card-item__cover img {
-    animation: fade .15s;
+    animation: fade .7s;
 }
 
 .card-item__img--back {
