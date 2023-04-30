@@ -1,0 +1,29 @@
+/* Comentarios ------- */
+
+*{
+    background-color: blueviolet;
+    color: aliceblue
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.estilos{
+    color: aquamarine;
+    font-size: 30px;
+
+}
+
+
+#unico{
+    color: gold;
+    font-size: 35px;
+}
+
+/* Precedencias.... */
+.nuevo{
+    font-size: 35px;
+    color: azure;
+}

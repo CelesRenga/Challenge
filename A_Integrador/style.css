@@ -1,0 +1,98 @@
+
+
+.header{
+    background: #30343F;
+    position: absolute;
+    width: 1440px;
+    height: 144px;
+    left: 0px;
+    top: 0px; 
+    right: 0px;
+    bottom: 0px;   
+    
+}
+
+.logo{
+    position: absolute;
+    left: 0%;
+    right: 78.43%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FF4848;
+}
+
+.shop{
+    position: absolute;
+    left: 64.17%;
+    right: 32.01%;
+    top: 40.97%;
+    bottom: 43.06%;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+}
+
+.contacto{
+    position: absolute;
+    left: 71.39%;
+    right: 21.04%;
+    top: 40.97%;
+    bottom: 43.06%;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+.login{
+    position: absolute;
+    left: 82.36%;
+    right: 13.33%;
+    top: 40.97%;
+    bottom: 43.06%;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+.carrito{
+    position: absolute;
+    left: 2.12%;
+    right: 0.91%;
+    top: 1.99%;
+    bottom: 19.22%;
+
+    background: #FFFFFF;
+}
+
+.banner{
+    position: absolute;
+    width: 1440px;
+    height: 888px;
+    left: 0px;
+    top: -246px;
+
+    background: url(funkos-banner.png);
+    filter: blur(3px);
+}
+
+.button{
+    background-color: gray;
+    border-radius: 50px;
+}
